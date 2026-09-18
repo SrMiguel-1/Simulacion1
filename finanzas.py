@@ -3,6 +3,7 @@ def fib(numero):
     list=[]
     while x<=numero:
         list.append(x)
+        print("Hello world")
         x, y=y, x+y
     return list
 fib(8)
