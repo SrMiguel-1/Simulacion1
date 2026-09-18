@@ -5,7 +5,7 @@ def fib(numero):
     resultado= resultado * x
     while x<=numero:
         list.append(x)
-        print("Hello world")
+        print("Hello world..")
         x, y=y, x+y
     return list
     print("resultado de suceción de fubinacci: ", resultado)
